@@ -6,7 +6,7 @@ import json
 import traceback
 import logging
 import socket
-import request
+import requests
 
 hostname = socket.gethostname()
 logger_config = json.load(open('./logger_config.json'), encoding='utf-8')
